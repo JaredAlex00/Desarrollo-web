@@ -1,0 +1,19 @@
+footer{
+    background-color: rgb(13, 14, 13);
+    color: #5a5959;
+}
+body{
+    background-color: #FFF;
+    color: #878787;
+}
+nav>button{
+    
+}
+.banner{
+    :hover{
+        background-color: #242323;
+        transform: scale(1.1);
+        transition: 0.5s;
+        
+    }
+}
