@@ -1,19 +1,49 @@
 footer{
     background-color: rgb(13, 14, 13);
     color: #5a5959;
+    font-family: Georgia;
 }
 body{
-    background-color: #FFF;
+    background-color: rgb(247,241,233);
     color: #878787;
 }
-nav>button{
-    
+.header-container{
+    background-color: rgb(219, 191, 145);
+    display: flex;
+    align-items: center;
+    padding: 10px;  
+    font-family: Georgia
 }
-.banner{
-    :hover{
-        background-color: #242323;
-        transform: scale(1.1);
-        transition: 0.5s;
-        
-    }
+.menu{
+    display: contain;
+    justify-content: center;
+    background-color: rgb(219, 191, 145); 
+    padding: 20px;
+    gap: 30px;
+}
+.menu a {
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+    padding: 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.menu button {
+    background: none;       
+    border: none;           
+    padding: 0;             
+    margin: 0 15px;         
+    cursor: pointer;        
+}
+.menu a:hover {
+    color: rgb(247,241,233);
+    border-bottom: 2px solid rgb(219, 191, 145);
+}
+.banner-contenedor a:hover img{
+    filter: brightness(80%); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
