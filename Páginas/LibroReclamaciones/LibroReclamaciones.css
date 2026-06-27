@@ -1,14 +1,12 @@
 .container {
     max-width: 900px;
     margin: 40px auto;
-    background-color: #ffffff; /* Fondo blanco limpio para contrastar con el fondo arena general */
+    background-color: #ffffff;  
     padding: 40px 50px;
     border-radius: 4px;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.03); /* Sombra ultra suave */
-    border: 1px solid rgba(219, 191, 145, 0.3); /* Borde sutil color arena */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.03); 
+    border: 1px solid rgba(219, 191, 145, 0.3);
 }
-
-/* Títulos principales */
 h1 {
     font-size: 32px;
     color: #121212;
@@ -71,9 +69,6 @@ textarea {
     border-radius: 2px;
     transition: all 0.3s ease;
 }
-input, select, textarea {
-    size: unset !important;
-}
 input:focus,
 select:focus,
 textarea:focus {
@@ -106,15 +101,12 @@ input[type="checkbox"] + label {
     font-size: 13px;
     color: #777777;
     cursor: pointer;
-    vertical-align: middle;
 }
 button[type="submit"] {
     background-color: #0d0e0d;
     color: #dbbf91;
-    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 500;
     padding: 15px 30px;
     border: 1px solid #dbbf91;
@@ -136,6 +128,5 @@ button[type="submit"] + label {
     text-transform: none;
     font-size: 11px;
     color: #999999;
-    letter-spacing: 0;
     margin-top: 5px;
 }
