@@ -1,0 +1,141 @@
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #ffffff; /* Fondo blanco limpio para contrastar con el fondo arena general */
+    padding: 40px 50px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.03); /* Sombra ultra suave */
+    border: 1px solid rgba(219, 191, 145, 0.3); /* Borde sutil color arena */
+}
+
+/* Títulos principales */
+h1 {
+    font-size: 32px;
+    color: #121212;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #dbbf91;
+    margin-bottom: 40px;
+}
+.row {
+    margin-bottom: 40px;
+}
+
+legend h2 {
+    font-size: 20px;
+    color: #121212;
+    border-bottom: 1px solid rgba(219, 191, 145, 0.4);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 15px;
+    width: 100% !important;
+}
+
+td {
+    vertical-align: top;
+}
+
+label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #5a5959;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 15px;
+    font-size: 13px;
+    color: #121212;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+input, select, textarea {
+    size: unset !important;
+}
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #dbbf91;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(219, 191, 145, 0.2);
+}
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'><path d='M0 3l5 5 5-5z' fill='%235a5959'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    padding-right: 30px;
+}
+input[type="checkbox"] {
+    accent-color: #dbbf91;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label {
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 13px;
+    color: #777777;
+    cursor: pointer;
+    vertical-align: middle;
+}
+button[type="submit"] {
+    background-color: #0d0e0d;
+    color: #dbbf91;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border: 1px solid #dbbf91;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #dbbf91;
+    color: #0d0e0d;
+    box-shadow: 0px 5px 15px rgba(219, 191, 145, 0.3);
+}
+button[type="submit"] + label {
+    display: block;
+    text-align: center;
+    text-transform: none;
+    font-size: 11px;
+    color: #999999;
+    letter-spacing: 0;
+    margin-top: 5px;
+}
