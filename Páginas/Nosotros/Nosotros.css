@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(248, 247, 244);
+}
+footer{
+    background-color:rgb(248, 247, 244);
+}
+nav{
+    background-color: rgb(248, 247, 244);
+}
+header{
+    background-color: rgb(248, 247, 244);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.section{
+    flex: 1;
+    background:rgb(10, 34, 64);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px gray;
+}
