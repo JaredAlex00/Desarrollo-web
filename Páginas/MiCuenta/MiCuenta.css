@@ -20,7 +20,7 @@ article{
 
 .caja{
     width:48%;
-    background:rgb(10, 34, 64);
+    background:#277c85;
     border:2px solid transparent;
     border-radius:10px;
     padding:20px;
@@ -35,7 +35,7 @@ article{
 }
 
 .caja input[type="submit"]{
-    background:rgb(14, 68, 113);
+    background:rgb(84, 136, 179);
     border:none;
     padding:10px 20px;
     font-weight:bold;
@@ -43,16 +43,16 @@ article{
 }
 
 .caja h1{
-    color:#b8860b;
+    color:#0e0e0c;
 }
 
 .caja label {
-    color: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
 }
 
 /* 1. Cambia el color del texto general del footer (títulos, párrafos, horarios) */
 footer {
-    color: rgb(248, 247, 244); /* Blanco roto suave */
+    color: rgb(253, 248, 248); /* Blanco roto suave */
 }
 
 /* 2. Cambia el color de todos los enlaces/links del footer (Mi cuenta, Tienda, Redes Sociales) */
@@ -65,4 +65,12 @@ footer a {
 footer a:hover {
     color: rgb(255, 255, 255); /* Se vuelve blanco al pasar el cursor */
     text-decoration: underline; /* Se subraya al pasar el cursor */
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
 }
