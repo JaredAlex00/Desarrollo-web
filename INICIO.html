@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>JOYERIA-LE-BLANK INICIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="inicio.css">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <div>
-                <img src="IMAGENES/WhatsApp Image 2026-05-25 at 8.22.14 PM.jpeg" width="200" height="100">
-                <h3><i>“Elegancia que trasciende el tiempo”</i></h3>
+            <div class="logo-lema">
+                <img class="logo" src="IMAGENES/WhatsApp Image 2026-05-25 at 8.22.14 PM.jpeg" width="200" height="100">
+                    <h3><i>“Elegancia que trasciende el tiempo”</i></h3>
             </div>
             <nav class="menu">
                 <button type="button"><a href="Páginas/Inicio/INICIO.html">INICIO</a></button>
@@ -24,19 +25,73 @@
     </header>
     <hr width="50%">
     <section>
-        <div class="banner-contenedor">
-            <a href="Páginas/Colección/COLECCIÓN.html">
-                <img src="IMAGENES/Banner_novedades.png" width="100%" class="banner">
-            </a>
-        </div>
-        <div class="banner-contenedor">
-            <a href="Páginas/Descuentos/DESCUENTOS.html">
-                <img src="IMAGENES/Banner_promociones.png" width="100%" class="banner">
-            </a>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="Páginas/Colección/COLECCIÓN.html">
+                        <img src="https://blog.jumboprinters.com/wp-content/uploads/2025/10/Fly-banner.jpg" class="d-block w-100" alt="..." width="100%">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a>
+                        <img src="https://patrickandsant.com/wp-content/uploads/2019/10/blog-ru2.jpg" class="d-block w-100" alt="..." width="100%">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a>
+                        <img src="https://d1wbcovc1jzt1a.cloudfront.net/nightowlp/images/product/Banner_01_10192911202604.jpg" class="d-block w-100" alt="..." width="100%">
+                    </a>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
     </section>
+    <article>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="contenedor-productos">
+                    <div class="carousel-item active">
+                        <leyend><h4>PRODUCTOS MÁS VENDIDOS</h4></leyend>
+                        <div class="card mb-3">
+                            <img class="img-card" src="https://blog.jumboprinters.com/wp-content/uploads/2025/10/Fly-banner.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="carousel-item">
+                        <a>
+                            <img src="https://patrickandsant.com/wp-content/uploads/2019/10/blog-ru2.jpg" class="d-block w-100" alt="..." width="100%">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a>
+                            <img src="https://d1wbcovc1jzt1a.cloudfront.net/nightowlp/images/product/Banner_01_10192911202604.jpg" class="d-block w-100" alt="..." width="100%">
+                        </a>
+                    </div>   
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </article>
+    <hr width="50%">
     <footer>
-        <hr width="50%">
         <div class="footer-grid">
             <div class="footer-section">
                 <h3>Cuenta</h3>
@@ -91,5 +146,6 @@
             <p>© 2026 LE BLANK - Todos los derechos reservados.</p>
         </div>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
