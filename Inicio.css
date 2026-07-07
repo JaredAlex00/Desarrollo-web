@@ -1,38 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(247,241,233);
-    color: #fcfbfb;
-    font-family: 'Syne', sans-serif;
+    color: #111111;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.6;
 }
 a {
     font-family: inherit;
     text-transform: uppercase;
-    letter-spacing: 0px;
-    font-size: 14px;
     text-decoration: none;
-    color: #5a5959;
+    color: inherit;
     padding: 8px 0;
     border-bottom: 10px solid transparent;
     transition: all 0.3s ease;
 }
 .header-container{
-    border-radius: 20px;
-    background-color: #19100a;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #0a0a19;
     display: flex;
-    padding: 20px;
+    padding: 20px 0;
+    flex-direction: column;
     align-items: center;
+    gap: 15px;
+}
+.logo {
     text-align: center;
 }
-.header-container img{
-    border-radius: 20%; 
+
+.logo-lema {
+    width: 180px;
+    height: auto;
+    margin-bottom: 5px;
 }
+.logo-lema h3{
+    color: #888888;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 14px ;
+}
+nav {
+  position: sticky;
+  font-weight: bold;
+  padding: 5px 0;
+  background-color: #ffffff;
+  position: -webkit-sticky;
+  position: sticky;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
 .menu{
-    display: block;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
     justify-content: center;
-    background-color: #19100a; 
+    background-color: inherit; 
     padding: 20px;
-    gap: 30px;
+    gap: 25px;
 }
 .menu a {
     text-transform: uppercase;
@@ -63,8 +93,25 @@ footer{
     color: rgb(247,241,233);
     border-bottom: 2px solid #dbbf91;
 }
-.banner-contenedor a:hover img{
+.carousel-item a:hover img{
     filter: brightness(80%); 
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
     transition: all 0.3s ease;
+}
+.contenedor-productos {
+    padding: 50px;
+    margin: 0 15px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    height: 600px;
+}
+.img-card {
+    width: 100%;
+  height: 65%;
+  object-fit: cover;    
+  object-position: center;
 }
