@@ -62,13 +62,10 @@ header {
     color: #444444;
     padding: 5px 0;
 }
-
-.nav-link:hover,
-.nav-link.active {
+.nav-link:hover {
     color: #d4af37;
     border-bottom: 1px solid #d4af37;
 }
-
 .micuenta {
     background-color: #222222;
     color: #ffffff;
@@ -113,7 +110,6 @@ article center hr {
 article h2 {
     font-size: 20px;
     letter-spacing: 2px;
-    color: #111111;
     text-transform: uppercase;
     margin-bottom: 25px;
     font-weight: 400;
